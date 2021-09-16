@@ -1,0 +1,173 @@
+/* Container */
+.container {
+    max-width: 1696px; /* 1600 x 1.06 = 1696 */
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+
+
+/* Buttons */
+.btn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    cursor: pointer;
+    outline: none;
+    
+    transition: .2s;
+}
+
+.btn-white {
+    background-color: white;
+    color: #0D0D2B;
+
+    padding: 4px 16px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
+.btn-blue {
+    background-color: #3671E9;
+    color: white;
+
+    border: 1px solid transparent;
+    border-radius: 32px;
+}
+
+.btn-arrow {
+    background-color: #3671E9;
+    color: white;
+
+    padding: 16px 16px 16px 24px;
+    border: 1px solid transparent;
+    border-radius: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.btn-circle {
+    background-color: white;
+    width: 64px;
+    height: 64px;
+
+    border: 2px solid #2b076e33;
+    border-radius: 50%;
+}
+
+.pad-1 {
+    padding: 14px 32px;
+}
+
+.pad-2 {
+    padding: 16px 32px;
+}
+
+.pad-3 {
+    padding: 16px 24px;
+}
+
+/* Hover */
+.btn-white:hover {
+    animation: scale .5s linear infinite alternate;
+}
+
+.btn-blue:hover, .btn-arrow:hover {
+    background-color: #3672e9da;
+}
+
+.btn-circle:hover {
+    background-color: #2b076e10;
+}
+
+/* Active */
+
+.btn-blue:active, .btn-arrow:active {
+    background-color: #3672e9a2;
+}
+
+.btn-circle:active {
+    background-color: #2b076e1e;
+    transform: translateY(-2px);
+}
+
+
+
+/* Headings */
+.h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+
+/* Paragraphs */
+.para-16px {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: .2px;
+}
+
+.para-18px {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    letter-spacing: .2px;
+}
+
+
+
+/* Paragraph Spacing */
+.space-normal {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+
+/* Colors */
+.white {
+    color: white;
+}
+
+.black {
+    color: #0D0D2B;
+}
+
+.grey-1 {
+    color: #E0E0E0;
+}
+
+.grey-2 {
+    color: #828282;
+}
+
+
+
+/* Animation */
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}

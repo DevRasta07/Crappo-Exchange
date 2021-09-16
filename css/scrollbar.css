@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: hsl(240, 54%, 11%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(240, 26%, 25%);
+    
+    border-radius: 10px;
+}

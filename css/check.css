@@ -1,0 +1,102 @@
+#check {
+    background-color: #0D0D2B;
+    height: 370px;
+}
+
+.container {
+    position: relative;
+}
+
+#check .text {
+    text-align: center;
+}
+
+
+
+/* Calculator */
+.calculator {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: white;
+    min-width: 942px;
+
+    margin-top: 64px;
+    padding: 48px;
+    border-radius: 15px;
+
+    filter: drop-shadow(0px 20px 200px rgb(57, 23, 119, 0.2));
+}
+
+.calculator #hashrate {
+    font-size: 20px;
+
+    color: #0D0D2B;
+    
+    width: 403px;
+
+    padding: 8px 2px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+}
+
+.calculator #hash-units {
+    appearance: none;
+    font-size: 20px;
+
+    color: #0D0D2B;
+    background-image: url(../images/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+
+    width: 200px;
+
+    padding: 8px 2px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+}
+
+.calculator #hashrate,
+.calculator #hash-units {
+    margin-right: 48px;
+}
+
+#hashrate::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#hashrate::placeholder {
+    color: #0D0D2B;
+}
+
+
+
+/* Result */
+.result {
+    margin-top: 100px;
+}
+
+.result h4 {
+    color: #3671E9;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.result p:first-of-type {
+    font-size: 32px;
+    font-weight: 700;
+
+    margin: 16px 0 4px;
+}
+
+.result p span {
+    color: #3671E9;
+    font-size: 32px;
+    font-weight: 700;
+}

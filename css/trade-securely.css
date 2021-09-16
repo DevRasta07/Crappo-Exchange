@@ -1,0 +1,60 @@
+#trade-securely {
+    background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+}
+
+#trade-securely .container {
+    padding-top: 316px;
+}
+
+#trade-securely .h2 {
+    text-align: center;
+}
+
+.curr-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+    margin-top: 64px;
+}
+
+.curr-container .currency {
+    background: white;
+    width: 370px;
+    height: 433px;
+
+    padding: 0 24px;
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 40px rgba(57, 23, 119, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.currency .curr-img {
+    margin: 48px 0;
+}
+
+.currency .curr-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.currency .curr-name .abreviation {
+    color: #BDBDBD;
+    font-weight: 500;
+}
+
+.currency p {
+    margin: 16px 0 25px;
+}
+
+.currency .btn-circle {
+    display: grid;
+    place-items: center;
+}
