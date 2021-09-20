@@ -15,11 +15,12 @@
 }
 
 .curr-container {
-    display: flex;
-    justify-content: center;
-    gap: 120px;
+    max-width: 1400px;
 
-    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 64px auto 0;
 }
 
 .curr-container .currency {

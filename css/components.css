@@ -2,13 +2,14 @@
 .container {
     max-width: 1696px; /* 1600 x 1.06 = 1696 */
     margin: 0 auto;
-    padding: 0 120px;
+    padding: 0 100px;
 }
 
 
 
 /* Links */
 a {
+    text-decoration: none;
     cursor: pointer;
     transition: .2s;
 }

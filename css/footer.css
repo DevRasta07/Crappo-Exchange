@@ -98,6 +98,7 @@ footer #additional #social-media a + a {
 
 footer #back2top {
     display: block;
+    position: relative;
 }
 
 footer #back2top div {
@@ -111,7 +112,7 @@ footer #back2top div {
     justify-content: center;
 
     position: absolute;
-    bottom: 20px;
+    bottom: -50px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -120,10 +121,20 @@ footer #back2top div:hover {
     background: #e0e0e013;
 }
 
+footer #back2top div:hover > img {
+    animation: spin .8s cubic-bezier(1,-0.51,0,1.4);
+}
+
 footer #back2top div:active {
     background: #e0e0e00d;
 }
 
 footer #back2top div img {
     transform: rotate(-90deg);
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(.75turn);
+    }
 }

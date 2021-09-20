@@ -1,10 +1,11 @@
 #check {
     background-color: #0D0D2B;
-    height: 370px;
 }
 
-.container {
+#check .container {
     position: relative;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 #check .text {
@@ -16,14 +17,14 @@
 /* Calculator */
 .calculator {
     position: absolute;
-    top: 100%;
+    top: 300px;
     left: 50%;
     transform: translateX(-50%);
 
     background-color: white;
-    min-width: 942px;
+    width: 942px;
 
-    margin-top: 64px;
+    /* margin-top: 64px; */
     padding: 48px;
     border-radius: 15px;
 

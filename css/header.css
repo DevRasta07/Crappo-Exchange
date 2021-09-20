@@ -1,13 +1,10 @@
 #page-header {
     background-color: #0d0d2b;
-    width: 100%;
-    height: 100%;
-
-    padding-top: 60px;
 }
 
-a {
-    text-decoration: none;
+#page-header .container {
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 header {
@@ -112,15 +109,7 @@ main {
     gap: 15px;
 }
 
-#introduction {
-    max-width: 600px;
-}
-
 #introduction h1 {
     font-weight: 700;
     font-size: 64px;
-}
-
-#introduction p {
-    max-width: 70%;
 }
