@@ -7,6 +7,14 @@
 
 
 
+/* Links */
+a {
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+
 /* Buttons */
 .btn {
     font-family: 'Rubik', sans-serif;
@@ -22,10 +30,11 @@
 .btn-white {
     background-color: white;
     color: #0D0D2B;
+    font-size: 18px;
 
-    padding: 4px 16px;
+    padding: 14px 32px;
     border: 1px solid transparent;
-    border-radius: 16px;
+    border-radius: 32px;
 }
 
 .btn-blue {
@@ -59,6 +68,15 @@
     border-radius: 50%;
 }
 
+.btn-sale {
+    background-color: white;
+    color: #0D0D2B;
+
+    padding: 4px 16px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
 .pad-1 {
     padding: 14px 32px;
 }
@@ -72,8 +90,12 @@
 }
 
 /* Hover */
-.btn-white:hover {
+.btn-sale:hover {
     animation: scale .5s linear infinite alternate;
+}
+
+.btn-white:hover {
+    background-color: #f3f3f3;
 }
 
 .btn-blue:hover, .btn-arrow:hover {
@@ -85,6 +107,10 @@
 }
 
 /* Active */
+
+.btn-white:active {
+    background-color: #E0E0E0;
+}
 
 .btn-blue:active, .btn-arrow:active {
     background-color: #3672e9a2;
@@ -101,16 +127,31 @@
 .h1 {
     font-weight: 700;
     font-size: 64px;
+    line-height: 76px;
 }
 
 .h2 {
     font-weight: 700;
     font-size: 40px;
+    line-height: 150%;
 }
 
 .h3 {
     font-weight: 700;
     font-size: 32px;
+    line-height: 150%;
+}
+
+.h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
 }
 
 
@@ -120,7 +161,7 @@
     font-family: 'Rubik';
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.75;
+    line-height: 175%;
     letter-spacing: .2px;
 }
 
@@ -128,7 +169,7 @@
     font-family: 'Rubik';
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.75;
+    line-height: 175%;
     letter-spacing: .2px;
 }
 

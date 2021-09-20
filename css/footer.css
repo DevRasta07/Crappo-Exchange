@@ -1,0 +1,129 @@
+footer {
+    background: #0D0D2B;
+}
+
+footer .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer #footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #logo-link {
+    color: white;
+}
+
+footer .logo-box, footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .logo {
+    background-color: #252540;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    justify-content: center;
+    gap: 3px;
+}
+
+footer #crappo {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .9px;
+
+    margin-left: 16px;
+}
+
+footer .h5 {
+    margin-bottom: 24px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    color: #F2F2F2;
+    font-size: 16px;
+    line-height: 237%;
+}
+
+footer ul a:hover {
+    color: hsl(0, 0%, 85%);
+}
+
+footer ul a:active {
+    color: hsl(0, 0%, 75%);
+}
+
+footer .h4 {
+    margin-bottom: 40px;
+}
+
+footer #payment-methods {
+    display: flex;
+    gap: 24px;
+}
+
+footer #payment-methods .method {
+    background-color: #e0e0e00d;
+    width: 96px;
+    height: 64px;
+
+    border-radius: 8px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #additional {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 120px;
+}
+
+footer #additional #social-media a + a {
+    margin-left: 32px;
+}
+
+footer #back2top {
+    display: block;
+}
+
+footer #back2top div {
+    background: #e0e0e01a;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer #back2top div:hover {
+    background: #e0e0e013;
+}
+
+footer #back2top div:active {
+    background: #e0e0e00d;
+}
+
+footer #back2top div img {
+    transform: rotate(-90deg);
+}

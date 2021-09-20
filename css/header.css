@@ -45,8 +45,6 @@ header #crappo {
 
 header a {
     color: white;
-    cursor: pointer;
-    transition: .2s;
 }
 
 header nav a + a {

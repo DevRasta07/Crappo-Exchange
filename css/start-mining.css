@@ -1,0 +1,70 @@
+#start-mining {
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+
+#start-mining .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#start-mining #subscribe {
+    background-color: #3671E9;
+    width: 1200px;
+    height: 216px;
+
+    padding: 48px;
+    border-radius: 16px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+#start-mining #subscribe .text {
+    z-index: 2;
+}
+
+#start-mining #subscribe .text p {
+    margin-top: 16px;
+}
+
+#start-mining #subscribe #put-email {  
+    z-index: 1;
+}
+
+#start-mining #subscribe #put-email input {
+    background: transparent;
+    color: white;
+    width: 375px;
+    height: 35px;
+
+    margin-right: 40px;
+    border: none;
+    border-bottom: 1px solid #ffffff66;
+    outline: none;
+
+    transition: .2s;
+}
+
+#start-mining #subscribe #put-email input:focus {
+    border-bottom: 2px solid #ffffff;
+}
+
+#start-mining #subscribe #put-email input::placeholder {
+    color: #ffffffd0;
+}
+
+#start-mining #subscribe #eth-faded {
+    position: absolute;
+    left: 22px;
+    top: -38px;
+}
+
+#start-mining #subscribe #btc-faded {
+    position: absolute;
+    right: 15px;
+    bottom: -50px;
+}
